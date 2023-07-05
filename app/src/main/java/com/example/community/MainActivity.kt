@@ -92,6 +92,7 @@ class MainActivity : AppCompatActivity() {
                 for(dataModel in snapshot.children){
                     Log.d("dataModeloo",dataModel.toString())
                     val item = dataModel.getValue(BoardDataModel::class.java)
+                    Log.d("dataModeloo",item.toString())
                     items.add(item!!)
                     boardKeyList.add(dataModel.key.toString())
                 }

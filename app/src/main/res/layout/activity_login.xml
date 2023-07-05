@@ -8,21 +8,40 @@
     tools:context=".auth.LoginActivity"
     android:orientation="vertical">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/main_color">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="로그인"
+            android:gravity="center"/>
+
+    </LinearLayout>
     <EditText
         android:id="@+id/idArea"
         android:hint="id"
         android:textSize="20sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="65dp"/>
 
     <EditText
         android:id="@+id/passwordArea"
         android:hint="password"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="65dp"/>
     <Button
         android:id="@+id/loginBtn"
-        android:text="로그인"
+        android:layout_margin="20dp"
+        android:background="@color/main_color"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="회원가입하기"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
