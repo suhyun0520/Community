@@ -21,6 +21,7 @@ class SplashActivity : AppCompatActivity() {
 
         auth = Firebase.auth
 
+        // 앱 실행시 로그인되어 있으면 메인화면으로 비로그인 시 로그인 하는 화면으로 이동
         if(auth.currentUser?.uid == null){
             Handler().postDelayed({
                 startActivity(Intent(this, IntroActivity::class.java))
