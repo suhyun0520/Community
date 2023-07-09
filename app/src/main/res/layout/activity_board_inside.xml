@@ -35,11 +35,12 @@
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <TextView
-                            android:id="@+id/boardEditBtn"
                             android:visibility="invisible"
-                            android:layout_width="wrap_content"
-                            android:layout_height="60dp"
-                            android:text="수정"
+                            android:id="@+id/boardEditBtn"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/main_menu"
+                            android:layout_margin="10dp"
                             android:textSize="30sp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
