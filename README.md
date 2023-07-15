@@ -22,3 +22,5 @@ FireBase를 활용하여 회원가입, 로그인,비회원로그인, 게시글, 
 <br><br>
 
 # FireBase 정보
+![FireBase 유저인증화면](https://github.com/leesoohyeon/Community/assets/88640008/8c1f284f-8310-486f-a354-e6692a02b171)
+![FireBase데이터베이스](https://github.com/leesoohyeon/Community/assets/88640008/34f749e0-3873-48a9-b5d0-1dae081fba2a)
